@@ -1,619 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>KOKKARI ESTIATORIO HOTEL & RESORT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website demo design</title>
 
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<!---FontAwesome CDN Link for Icons--->
+<script src="https://kit.fontawesome.com/aab5c28c5d.js" crossorigin="anonymous"></script>
 
-   <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/menu.css">
+ <!--------    font awesome cdn link---->
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <!------custom css file link----->
+ <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-   
-<!-- header section starts  -->
 
-<section class="header">
 
-   <div class="flex">
-      <a href="#home" class="logo">Hotels And Resorts</a>
-      <a href="#availability" class="btn">check availability</a>
-      <div id="menu-btn" class="fas fa-bars"></div>
-   </div>
 
-   <nav class="navbar">
-      <a href="#home">home</a>
-      <a href="#about">about</a>
-      <a href="#menu">Menu</a>
-      <a href="#reservation">reservation</a>
-      <a href="#gallery">gallery</a>
-      <a href="#contact">contact</a>
-      <a href="#reviews">reviews</a>
-      <a href="#reviews">reviews</a>
-      
+<!-------header section starts---->
 
-   </nav>
+<header>
 
-   <div class="container">
 
-      <ul id="nav">
-          <li><a class="hsubs" href="#">LUNCH STARTER MENU </a>
-              <ul class="subs">
-                  <li><a href="#">Roasted Squash</a></li>
-                  <li><a href="#">Feta & Olives</a></li>
-                  <li><a href="#">Kokkari Potatoes</a></li>
-                  <li><a href="#">Zucchini Cakes-</a></li>
-                  <li><a href="#">Dolmathes</a></li>
-                  <li><a href="#">Mapakia</a></li>
-                  <li><a href="#">Spanakotiropita</a></li>
-                  <li><a href="#">Gigantes</a></li>
-                  <li><a href="#">Baked Feta</a></li>
-                  <li><a href="#">Roasted Prawns</a></li>
-                  <li><a href="#">Grilled Octopus</a></li>
-                  <li><a href="#">Grilled Calamari</a></li>
-                  <li><a href="#">Fried Smelts</a></li>
-                  <li><a href="#">Saghanaki</a></li>
-                  <li><a href="#">Grilled Lamb Riblets</a></li>
-                  <li><a href="#">Lamb Meatballs-</a></li>
-                  <li><a href="#">Grilled Calamari</a></li>
-              </ul>
-          </li>
-          <li><a class="hsubs" href="#">LUNCH SOUP & SALAD MENU </a>
-              <ul class="subs">
-                  <li><a href="#">Avgolemono </a></li>
-                  <li><a href="#">Fakes</a></li>
-                  <li><a href="#">Greek Salad </a></li>
-                  <li><a href="#">Maroulosalata</a></li>
-                  <li><a href="#">Kokkari Salad </a></li>
-                  <li><a href="#">Submenu 2-6</a></li>
-                  <li><a href="#">Submenu 2-7</a></li>
-                  <li><a href="#">Submenu 2-8</a></li>
-              </ul>
-          </li>
-          <li><a class="hsubs" href="#">ENTREE MENU</a>
-              <ul class="subs">
-                  <li><a href="#">Whole Fish </a></li>
-                  <li><a href="#">Lavraki</a></li>
-                  <li><a href="#">Glosa</a></li>
-                  <li><a href="#">Tsipura</a></li>
-                  <li><a href="#">Ravioli </a></li>
-                  <li><a href="#">Artichoke Souvlaki </a></li>
-                  <li><a href="#">Octopus Salad </a></li>
-                  <li><a href="#">Wild Halibut</a></li>
-                  <li><a href="#">Chicke Souvlaki - </a></li>
-                  <li><a href="#">Grilled Lamb Chops</a></li>
-                  <li><a href="#">Lamb Souvlaki </a></li>
-                  <li><a href="#">Moussaka</a></li>
-              </ul>
-          </li>
-          </li>
-          <li><a class="hsubs" href="#">DINNER MENU </a>
-              <ul class="subs">
-                  <li><a href="#">Kolokythi  </a></li>
-                  <li><a href="#">Lavraki</a></li>
-                  <li><a href="#">Feta & Olives</a></li>
-                  <li><a href="#">Dolmathes</a></li>
-                  <li><a href="#">Spanakotiropita</a></li>
-                  <li><a href="#">Mapakia  </a></li>
-                  <li><a href="#">Aginares Souvlaki</a></li>
-                  <li><a href="#">Gigantes </a></li>
-                  <li><a href="#">Kolokithokeftethes - </a></li>
-                  <li><a href="#">Feta tou fournou </a></li>
-                  <li><a href="#">Saghanaki  </a></li>
-                  <li><a href="#">Octapodaki tou Yiorgou</a></li>
-                  <li><a href="#">Kalamari</a></li>
-                  <li><a href="#">Marithes Tiganites</a></li>
-                  <li><a href="#">Garides Skordates</a></li>
-                  <li><a href="#">Arnisia Plevrakia</a></li>
-                  <li><a href="#">Soutzoukakia </a></li>
-                  <li><a href="#">Melitzanosalata, Taramosalata, Tzatziki, Favasalata, Skordalia or Tirokafteri </a></li>
-              </ul>
-          </li>
-          </li>
-          <li><a class="hsubs" href="#">DINNER SOUPES & SALATES </a>
-              <ul class="subs">
-                  <li><a href="#">Avgolemono   </a></li>
-                  <li><a href="#">Fakes</a></li>
-                  <li><a href="#">Horiatiki</a></li>
-                  <li><a href="#">Maroulosalata </a></li>
-                  <li><a href="#">Kokkari Salad </a></li>
-              </ul>
-          </li>
-          </li>
-          <li><a class="hsubs" href="#">DINNER KIRIOS PIATO</a>
-              <ul class="subs">
-                  <li><a href="#">Lavrak </a></li>
-                  <li><a href="#">Glosa</a></li>
-                  <li><a href="#">Tsipura</a></li>
-                  <li><a href="#">Psari Psito -Maroulosalata </a></li>
-                  <li><a href="#">Psari sto Fourno </a></li>
-                  <li><a href="#">Ippoglossa  </a></li>
-                  <li><a href="#">Makaronia  </a></li>
-                  <li><a href="#">Kotopoulo Souvlas  </a></li>
-                  <li><a href="#">Moussaka  </a></li>
-                  <li><a href="#">Kokinisto me Manestra </a></li>
-                  <li><a href="#">Arnisia Paidakia  </a></li>
-                  <li><a href="#">Arnisio Souvlaki  </a></li>
-                  <li><a href="#">Mosharisia Brizola</a></li>
-                  <li><a href="#">Katsikaki Stifádo –</a></li>
-              </ul>
-          </li>
-          <li><a href="#">WINE-LIST MENU</a>
-            <ul class="subs">
-               <li><a href="#">Sparkling & White Wines By The Glass</a><</li>
-               <li><a href="#">Andreola, Col del forno Prosecco, Valdobbiadene '18</a></li>
-               <li><a href="#">Gaia, Ritinitis Nobilis, Aigialeia Retsina nv</a></li>
-               <li><a href="#">Hatziyiannis, Assyrtiko, Santorini '20  </a></li>
-               <li><a href="#">Troupis, Fteri Moschofilero, Arcadia-Tripoli '19</a></li>
-               <li><a href="#">Tablas Creek, Patelin de Tablas Blanc, Paso Robles '20</a></li>
-               <li><a href="#">Tablas Creek, Patelin de Tablas Blanc, Paso Robles '20 </a></li>
-               <li><a href="#">Astrolabe, Pinot Gris, Marlborough '19 </a></li>
-               <li><a href="#">Hope & Grace, Sauvignon Blanc, Napa Valley '19 </a></li>
-               <li><a href="#">Post & Beam, Chardonnay, Napa Valley '20  </a></li>
-               
-           </ul>
-       </li>
-         </li>
-          <li><a href="#">Menu 5</a></li>
-          <li><a href="#">Menu 6</a></li>
-          <li><a href="https://demodesign-script.netlify.app/">Back</a></li>
-          <div id="lavalamp"></div>
-      </ul>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <
+    <a href="#contact">contact</a>
+    </nav>
+      <div id="theme-toggler" class="fas fa-moon"></div>
 
-  </div>
-</section>
+</header>
+<!-------header section ends---->
 
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
+<!------------home section starts---->
 <section class="home" id="home">
+    <div class="image">
+        <img src="image1/user.png" alt="">
+    </div>
 
-   <div class="swiper home-slider">
+     <div class="content">
+        <span class="hello" >Hello</span>
+        <h3>I'M <span>HELEN EBERE OKORO</span></h3>
+        <h4>PROFESSIONAL PREFACE</h4>
+        <p>Experienced in operational management and providing excellent service to all customers. <br>Having 12 years’ work experience and equipped with excellent problem-solving skills, I am capable of working effectively both individually and in a variety of team situations to achieve organisational goals.<br> Possessing strong business acumen with exceptional communication, organisational and interpersonal skills. <br> Currently seeking to transfer these skills within a challenging environment to achieve organisational goals.</p>
+        <a href="#about" class="btn">about Me</a>
+     </div>
 
-      <div class="swiper-wrapper">
-
-         <div class="box swiper-slide">
-            <img src="images/home-img-1.jpg" alt="">
-            <div class="flex">
-               <h3>luxurious rooms</h3>
-               <a href="#availability" class="btn">check availability</a>
-            </div>
-         </div>
-
-         <div class="box swiper-slide">
-            <img src="images/home-img-2.jpg" alt="">
-            <div class="flex">
-               <h3>foods and drinks</h3>
-               <a href="#reservation" class="btn">make a reservation</a>
-            </div>
-         </div>
-
-         <div class="box swiper-slide">
-            <img src="images/home-img-3.jpg" alt="">
-            <div class="flex">
-               <h3>luxurious halls</h3>
-               <a href="#contact" class="btn">contact us</a>
-            </div>
-         </div>
-
-      </div>
-
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-
-   </div>
 
 </section>
 
-<!-- home section ends -->
 
-<!-- availability section starts  -->
 
-<section class="availability" id="availability">
-
-   <form action="" method="post">
-      <div class="flex">
-         <div class="box">
-            <p>check in <span>*</span></p>
-            <input type="date" name="check_in" class="input" required>
-         </div>
-         <div class="box">
-            <p>check out <span>*</span></p>
-            <input type="date" name="check_out" class="input" required>
-         </div>
-         <div class="box">
-            <p>adults <span>*</span></p>
-            <select name="adults" class="input" required>
-               <option value="1">1 adult</option>
-               <option value="2">2 adults</option>
-               <option value="3">3 adults</option>
-               <option value="4">4 adults</option>
-               <option value="5">5 adults</option>
-               <option value="6">6 adults</option>
-            </select>
-         </div>
-         <div class="box">
-            <p>childs <span>*</span></p>
-            <select name="childs" class="input" required>
-               <option value="-">0 child</option>
-               <option value="1">1 child</option>
-               <option value="2">2 childs</option>
-               <option value="3">3 childs</option>
-               <option value="4">4 childs</option>
-               <option value="5">5 childs</option>
-               <option value="6">6 childs</option>
-            </select>
-         </div>
-         <div class="box">
-            <p>rooms <span>*</span></p>
-            <select name="rooms" class="input" required>
-               <option value="1">1 room</option>
-               <option value="2">2 rooms</option>
-               <option value="3">3 rooms</option>
-               <option value="4">4 rooms</option>
-               <option value="5">5 rooms</option>
-               <option value="6">6 rooms</option>
-            </select>
-         </div>
-      </div>
-      <input type="submit" value="check availability" name="check" class="btn">
-   </form>
-
-</section>
-
-<!-- availability section ends -->
-
-<!-- about section starts  -->
+<!------------home section ends---->
 
 <section class="about" id="about">
-
+   <h1 class="heading"> about <span>Me</span></h1>
    <div class="row">
-      <div class="image">
-         <img src="images/about-img-1.jpg" alt="">
-      </div>
-      <div class="content">
-         <h3>best staff</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
-         <a href="#reservation" class="btn">make a reservation</a>
-      </div>
-   </div>
 
-   <div class="row revers">
-      <div class="image">
-         <img src="images/about-img-2.jpg" alt="">
-      </div>
-      <div class="content">
-         <h3>best foods</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
-         <a href="#contact" class="btn">contact us</a>
-      </div>
-   </div>
+<div class="box">
+    <h3 class="title">IT SKILLS</h3>
+    <div class="progress">
+        <h3> MS WORD <span>95%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+    <div class="progress">
+        <h3> MS EXCEL <span>80%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
 
-   <div class="row">
-      <div class="image">
-         <img src="images/about-img-3.jpg" alt="">
-      </div>
-      <div class="content">
-         <h3>swimming pool</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
-         <a href="#availability" class="btn">check availability</a>
-      </div>
-   </div>
+    <div class="progress">
+        <h3> MS ADOBE <span>80%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+    <div class="progress">
+        <h3> MS POWERPOINT <span>65%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+
+    <div class="progress">
+        <h3> MS ACCESS <span>80%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+    <div class="progress">
+        <h3> MS OUTLOOK <span>75%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+</div>
+
+<div class="box">
+    <h3 class="title">professional Skills</h3>
+    <div class="progress">
+        <h3>Planning and Organisation <span>98%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+    <div class="progress">
+        <h3>Problem Solving & Documentation and Reporting  <span>67%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+    <div class="progress">
+        <h3> Communication & Leadership  <span>75%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+
+    <div class="progress">
+        <h3>Quality Assurance & Project Management  <span>75%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+
+    <div class="progress">
+        <h3>Customer Service & Operations Management  <span>75%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+    <div class="progress">
+        <h3> Communication & Team work <span>60%</span></h3>
+        <div class="bar"><span></span></div>
+    </div>
+</div>
+
+
+  <div class="box">
+    <h3 class="title">EDUCATION</h3>
+    <div class="exp-box">
+        <h3>University of Lagos</h3>
+        <p>M.Ed in Educational Administration and Planning (in view)	Part-Time			<p style="text-align: right">2023 - till Date.</p></p>
+
+    </div>
+    <div class="exp-box">
+        <h3>Lead City University, Ibadan State</h3>
+        <p>B.Ed in Educational Management								<p style="text-align: right">2005 - 2009 </p></p>
+    </div>
+    <div class="exp-box">
+        <h3>Faith Secondary School, Kontagora, Niger State</h3>
+        <p>>school leaving certificate                           <p style="text-align: right">1995 - 2001.</p></p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="exp-box">
+        <h3>Nigeria Army Children School, Kontagora, Niger State					   </h3>
+        <p>	Primary school leaving certificate                                  <p style="text-align: right">1989 – 1995</p></p>
+  </div>
+
+
+  <div class="box">
+    <h3 class="title">PROFESSIONAL QUALIFICATION WITH CERTIFICATE OF COMPLETION AND DATE:</h3>
+    <div class="exp-box">
+
+        <p>
+            <u>
+                <li>BSAFE (United Nations Department of Safety Security) Confirmation #:3524270   <p style="text-align: right">Dec. 2023</p></li>
+                <li>PgMD Pro: Program Management for Development Professionals (Humentum, PM4NGOs) 		        <p style="text-align: right">Dec. 2023</p></li>
+                <li>Child Protection in Emergencies [Entry Level] (Humanitarian Leadership Academy, Save the Children)	      <p style="text-align: right">Dec, 2023</p></li>
+                <li>Global Disaster Risk Reduction and Management Pathway	(Humanitarian Leadership Academy)	       <p style="text-align: right"> Nov. 2023</p></li>
+                <li>Adolescents in Humanitarian Contexts (Humanitarian Leadership Academy)			        	        <p style="text-align: right">Nov.2023</p></li>
+                <li>Prevention of Sexual Exploitation and Abuse (Humanitarian Leadership Academy)                  		  <p style="text-align: right"> Nov. 2023</p></li>
+                <li>Humanitarian Operations Programme (HOP) Fundamentals (Humanitarian Leadership Academy)		        <p style="text-align: right">Nov. 2023</p></li>
+            </u>
+        </p>
+
+    </div>
+    <div class="exp-box">
+        <p>
+        <ul>
+        <li>Finance and Budgets in Emergencies (Humanitarian Leadership Academy)	                   		       <p style="text-align: right"> Nov.2023 </p> </li>
+        <li>Responsible Data Management in Emergencies (Humanitarian Leadership Academy)			        <p style="text-align: right">Nov. 2023</p></li>
+        <li>Humanitarian Information Management, Communications and Media (Humanitarian Leadership Academy)  <p style="text-align: right"> Nov. 2023</p></li>
+        <li>Monitoring, Evaluation, Accountability and Learning (MEAL) in Emergencies Humanitarian Leadership Academy   <p style="text-align: right">Nov. 2023</p></li>
+        <li>MEAL in Emergencies (Humanitarian Leadership Academy)						         <p style="text-align: right">Oct. 2013</p></li>
+        <li>Introduction to Human Resource Management in Humanitarian Contexts (Humanitarian Leadership Academy) <p style="text-align: right">Oct. 2023</p></li>
+        <li>IRC Personal Safety and Security (Humanitarian Leadership Academy)				                      <p style="text-align: right">Oct. 2023</p></li>
+
+
+
+        </ul>
+
+        </p>
+    </div>
+    <div class="exp-box">
+        <p>
+            <u>
+                <li>Introduction to Child Protection	(Humanitarian Leadership Academy)				         <p style="text-align: right">Oct. 2023</p></li>
+                <li>Working in Partnerships	(Humanitarian Leadership Academy)					         <p style="text-align: right">Oct. 2023</p></li>
+                <li>Safeguarding Essentials (Humanitarian Leadership Academy)						         <p style="text-align: right">Oct. 2023</p></li>
+                <li>Environment in Humanitarian Action ((Humanitarian Leadership Academy)				        <p style="text-align: right"> Oct. 2023</p></li>
+                <li>Wellness and Resilience for Frontline Workers and Managers ((Humanitarian Leadership Academy) <p style="text-align: right">Oct, 2023</p></li>
+                <li>Introduction to History of Humanitarianism (Humanitarian Leadership Academy) 			     <p style="text-align: right">Sept. 2023</p></li>
+                <li>Introduction to Needs Assessments in Emergencies (Humanitarian Leadership Academy)		         <p style="text-align: right">Sept. 2023</p></li>
+            </u>
+        </p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="exp-box">
+        <p>
+            <ul>
+                <li>An Introduction to Proposal and Report Writing (Humanitarian Leadership Academy)	             <p style="text-align: right"> Sept. 2023</p></li>
+                <li>How to Set Up and Run a Response Operation (Humanitarian Leadership Academy)		                      <p style="text-align: right">Sept. 2023</p></li>
+                <li>Being Accountable to Affected People (Humanitarian Leadership Academy)			                    <p style="text-align: right"> Sept. 2023</p></li>
+                <li>Introduction to Needs Assessments in Emergencies (Humanitarian Leadership Academy)   		      <p style="text-align: right">  Sept. 2023</p></li>
+                <li>Introduction to the Core Humanitarian Standard 	(Humanitarian Leadership Academy), -	       	        <p style="text-align: right">Aug. 2023</p></li>
+                <li>Introduction to International Humanitarian Law (IHL)   (Humanitarian Leadership Academy),		       <p style="text-align: right"> Aug 2023</p></li>
+                <li>120- Hour TESOL/TEFL CERTIFICATE (CERTIFICATE NUMBER:  WTA 22254319)		                     <p style="text-align: right">Aug. 2023</p></li>
+            </ul>
+        </p>
+
+    </div>
+    <div class="exp-box">
+        <p>
+            <ul>
+                <li>Certificate of Completion ABCC Counsellor Course United States					     <p style="text-align: right">  Oct. 2021</p></li>
+                <li>Certificate of Completion ABCC Counsellor Course Canada						      <p style="text-align: right"> Aug. 2021</p></li>
+                <li>Certificate of Completion ABCC Counsellor Course United Kingdom					      <p style="text-align: right"> Aug. 2021</p></li>
+                <li>Proficiency Certificate in Management (Chartered)	         			  			       <p style="text-align: right">Mar. 2011</p></li>
+                <li>Member, Chartered Nigerian Institute of Management [MNIM]</li>
+            </ul>
+        </p>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <h3 class="title">WORK EXPERIENCE </h3>
+    <div class="exp-box">
+
+        <h3>INSTITUTION: NAOMI HELPING HANDS INTERNATIONAL FOUNDATION </h3>
+
+        <u>
+        <li>Position Held: Co-Founder							 	  <p style="text-align: right">April 2023 – Till Date </p></li><p style="text-align: center">
+        <li>Continuously contributing innovative and creative ideas and concepts to enhance the progress of Naomi <br>Helping Hands International Foundation. </li>
+        <li>Monitor all other department of the organization and ensure all are functioning <br> appreciate in accordance with the company policy. </li>
+        <li>Develop and implement an all-encompassing educational and counseling plan with<br> modern methods of teaching and mentoring.</li>
+        <li>Providing counseling on policies and procedures.</li>
+        <li>Develop and implement an all-encompassing educational and counseling plan with<br> modern methods of teaching and mentoring.</li>
+        <li>Identify behavioral problems or at-risk persons and act appropriately.</li></p>
+
+        </u>
+
+        </p>
+
+    </div>
+    <div class="exp-box">
+        <h3>INSTITUTION: F&H WORLDWIDE EDUCATIONAL CONSULTANT</h3>
+        <p>Position Held: Director 								<p style="text-align: right">July 2017 – March 2023</p></p>
+    </div>
+    <div class="exp-box">
+        <h3>STUDYLINK LIMITED</h3>
+        <p>
+          <u>
+            <p> <li>Position Held: Student Counsellor/Administrative Support			   <p style="text-align: right">	Sept. 2015 – June 2017</p></li> </p>
+             <li>Provide an effective administrative support </li>
+             <li>Provide individual counselling based on student needs</li>
+             <li>Act as an advocate for the company’s social media spaces, and answering questions where appropriate.</li>
+             <li>Establish and maintain close links with wide range of academic and administrative staff in Universities/Colleges represent abroad. </li>
+             <li>Maintain records and statistics in line with the Service's Policy on confidentiality and Data Protection.</li>
+             <li>Carryout Effective marketing operation.</li>
+             <li>Effective VISA processing for prospective Clients, Flight Booking and Hotel Reservation.</li>
+          </u>
+        </p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="exp-box">
+        <p>
+            <u>
+        <h3>THE INSTITUTE OF CREDIT ADMINISTRATION (ICA) LAGOS, NIGERIA      </h3>
+        <p> <li>Position Held: Membership Services Executive (MSE)/Admin Officer	  	 <p style="text-align: right">  Nov. 2010 – Dec. 2011</p></li></p>
+          <li>Issuance of invoices to ICA Members (annual subscription and direct entry collection of payment).</li>
+          <li>Ensuring that Member (old and new members get their membership certificate, as the case may be).</li>
+          <li>Prepare Members Election Letter.</li>
+          <li>Liaising with clients.</li>
+          <li>Liaising with clients.</li>
+          <li>Sorting and Package of ICA Member Monthly Journals (The Credit Manager).</li>
+          <li>Follow up on existing ICA Members for their annual dues.</li>
+          <li>Debt recovering From ICA Member who is indebted to The Institute of Credit Administration.</li>
+
+        </u>
+        </p>
+
+    </div>
+    <div class="exp-box">
+        <h3>NYSC INTERN (ISOKOLO GIRLS SECONDARY SCHOOL DELTA STATE)</h3>
+        <p>
+            <ul>
+                <li>Position Held: Teacher									<p style="text-align: right">Nov. 2009 – Nov. 2010</p></li>
+                <li>Manage classroom of 30 - 35 Students.</li>
+                <li>Effectively instructing and evaluating learning while maintaining discipline.</li>
+                <li>Evaluating learning activities.</li>
+                <li>Coach the senior class for external examination.</li>
+                <li>Effectively organized time, space and resource to balance heavy work load and deadlines.</li>
+                <li>Participate in teacher weekly duties and activities.</li>
+                <li>Coordinate and supervise students’ program.</li>
+                <li>Ensure all teaching records are available and well kept.</li>
+                <li>Maintaining discipline among the students.</li>
+            </ul>
+        </p>
+    </div>
+    <div class="exp-box">
+        <h3>ONLINE TEACHING								   <p style="text-align: right">	2017 till Date</p></h3>
+        <p>English Proficiency Teaching online (Prospective Students for IELTS) 		.</p>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <h3 class="title">EXTRACURRICULAR ACTIVITY</h3>
+    <div class="exp-box">
+        <p>Future leaders connect (British Council): This I believe is providing me with the necessary information, education, skill and expertise as an intending leader in the political space.</p>
+
+    </div>
+    <div class="exp-box">
+        <h3>PUBLICATION</h3>
+        <p>
+B.Sc Thesis: Helen Okoro (2009) Universal Basic Educational Scheme – Challenges and Prospects in Western Nigeria. A case study of Selected Schools in Ibadan Metropolitan) A project submitted to The Department of Educational Management, Lead City University in partial fulfilment of the requirement for the award of Bachelor Degree in Educational Management. </p>
+    </div>
+    <div class="exp-box">
+        <h3>PROJECT</h3>
+        <p>Community Project Executed at Isiokolo Girls Secondary, Delta State   2010</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="exp-box">
+        <h3>INTERESTS </h3>
+        <p>Travelling and volunteering.</p>
+
+    </div>
+    <div class="exp-box">
+        <h3>REFEREES:  </h3>
+        <p>Provide on request </p>
+    </div>
+
+  </div>
+
+
 
 </section>
 
-<!-- about section ends -->
 
-<!-- services section starts  -->
 
-<section class="services">
 
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/icon-1.png" alt="">
-         <h3>food & drinks</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-2.png" alt="">
-         <h3>outdoor dining</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-3.png" alt="">
-         <h3>beach view</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-4.png" alt="">
-         <h3>decorations</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-5.png" alt="">
-         <h3>swimming pool</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-6.png" alt="">
-         <h3>resort beach</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- services section ends -->
-
-<!-- reservation section starts  -->
-
-<section class="reservation" id="reservation">
-
-   <form action="" method="post">
-      <h3>make a reservation</h3>
-      <div class="flex">
-         <div class="box">
-            <p>check in <span>*</span></p>
-            <input type="date" name="check_in" class="input" required>
-         </div>
-         <div class="box">
-            <p>check out <span>*</span></p>
-            <input type="date" name="check_out" class="input" required>
-         </div>
-         <div class="box">
-            <p>adults <span>*</span></p>
-            <select name="adults" class="input" required>
-               <option value="1">1 adult</option>
-               <option value="2">2 adults</option>
-               <option value="3">3 adults</option>
-               <option value="4">4 adults</option>
-               <option value="5">5 adults</option>
-               <option value="6">6 adults</option>
-            </select>
-         </div>
-         <div class="box">
-            <p>childs <span>*</span></p>
-            <select name="childs" class="input" required>
-               <option value="-">0 child</option>
-               <option value="1">1 child</option>
-               <option value="2">2 childs</option>
-               <option value="3">3 childs</option>
-               <option value="4">4 childs</option>
-               <option value="5">5 childs</option>
-               <option value="6">6 childs</option>
-            </select>
-         </div>
-         <div class="box">
-            <p>rooms <span>*</span></p>
-            <select name="rooms" class="input" required>
-               <option value="1">1 room</option>
-               <option value="2">2 rooms</option>
-               <option value="3">3 rooms</option>
-               <option value="4">4 rooms</option>
-               <option value="5">5 rooms</option>
-               <option value="6">6 rooms</option>
-            </select>
-         </div>
-      </div>
-      <input type="submit" value="check availability" name="check" class="btn">
-   </form>
-
-</section>
-
-<!-- reservation section ends -->
-
-<!-- gallery section starts  -->
-
-<section class="gallery" id="gallery">
-
-   <div class="swiper gallery-slider">
-      <div class="swiper-wrapper">
-         <img src="images/gallery-img-1.jpg" class="swiper-slide" alt="">
-         <img src="images/gallery-img-2.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-3.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-4.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-5.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-6.webp" class="swiper-slide" alt="">
-      </div>
-      <div class="swiper-pagination"></div>
-   </div>
-
-</section>
-
-<!-- gallery section ends -->
-
-<!-- contact section starts  -->
+<!------------------------contact------------------->
 
 <section class="contact" id="contact">
 
-   <div class="row">
-
-      <form action="" method="post">
-         <h3>send us message</h3>
-         <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
-         <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
-         <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
-         <textarea name="msg" class="box" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
-         <input type="submit" value="send message" name="send" class="btn">
-      </form>
-
-      <div class="faq">
-         <h3 class="title">frequently asked questions</h3>
-         <div class="box active">
-            <h3>how to cancel?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
-         </div>
-         <div class="box">
-            <h3>is there any vacancy?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ipsam neque quaerat mollitia ratione? Soluta!</p>
-         </div>
-         <div class="box">
-            <h3>what are payment methods?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ipsam neque quaerat mollitia ratione? Soluta!</p>
-         </div>
-         <div class="box">
-            <h3>how to claim coupons codes?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ipsam neque quaerat mollitia ratione? Soluta!</p>
-         </div>
-         <div class="box">
-            <h3>what are the age requirements?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ipsam neque quaerat mollitia ratione? Soluta!</p>
-         </div>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- contact section ends -->
-
-<!-- reviews section starts  -->
-
-<section class="reviews" id="reviews">
-
-   <div class="swiper reviews-slider">
-
-      <div class="swiper-wrapper">
-         <div class="swiper-slide box">
-            <img src="images/pic-1.png" alt="">     <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>
-         <div class="swiper-slide box">
-            <img src="images/pic-2.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>
-         <div class="swiper-slide box">
-            <img src="images/pic-3.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>
-         <div class="swiper-slide box">
-            <img src="images/pic-4.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>
-         <div class="swiper-slide box">
-            <img src="images/pic-5.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>
-         <div class="swiper-slide box">
-            <img src="images/pic-6.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>
-      </div>
-
-      <div class="swiper-pagination"></div>
-   </div>
-
-</section>
-
-<!-- reviews section ends  -->
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
-   <div class="container">
-
-      <ul id="nav">
-          <li><a href="https://demodesign-script.netlify.app/">Home</a></li>
-          <li><a class="hsubs" href="#">Menu 1</a>
-              <ul class="subs">
-                  <li><a href="#">Submenu 1</a></li>
-                  <li><a href="#">Submenu 2</a></li>
-                  <li><a href="#">Submenu 3</a></li>
-                  <li><a href="#">Submenu 4</a></li>
-                  <li><a href="#">Submenu 5</a></li>
-              </ul>
-          </li>
-          <li><a class="hsubs" href="#">Menu 2</a>
-              <ul class="subs">
-                  <li><a href="#">Submenu 2-1</a></li>
-                  <li><a href="#">Submenu 2-2</a></li>
-                  <li><a href="#">Submenu 2-3</a></li>
-                  <li><a href="#">Submenu 2-4</a></li>
-                  <li><a href="#">Submenu 2-5</a></li>
-                  <li><a href="#">Submenu 2-6</a></li>
-                  <li><a href="#">Submenu 2-7</a></li>
-                  <li><a href="#">Submenu 2-8</a></li>
-              </ul>
-          </li>
-          <li><a class="hsubs" href="#">Menu 3</a>
-              <ul class="subs">
-                  <li><a href="#">Submenu 3-1</a></li>
-                  <li><a href="#">Submenu 3-2</a></li>
-                  <li><a href="#">Submenu 3-3</a></li>
-                  <li><a href="#">Submenu 3-4</a></li>
-                  <li><a href="#">Submenu 3-5</a></li>
-              </ul>
-          </li>
-          <li><a href="#">Menu 4</a></li>
-          <li><a href="#">Menu 5</a></li>
-          <li><a href="#">Menu 6</a></li>
-          <li><a href="http://www.script-tutorials.com/pure-css3-lavalamp-menu/">Back</a></li>
-          <div id="lavalamp"></div>
-      </ul>
-
-  </div>
-
-   <div class="box-container">
-
-      <div class="box">
-         <a href="tel:+2348144451557"><i class="fas fa-phone"></i> +2348144451557</a>
-         <a href="tel:+2348144451557"><i class="fas fa-phone"></i> phone number Here</a>
-         <a href="mailto:binainu2017@gmail.com"><i class="fas fa-envelope"></i> shaib binainu</a>
-         <a href="#"><i class="fas fa-map-marker-alt"></i> medicak and dental house abuja nigeria </a>
-      </div>
-
-      <div class="box">
-         <a href="#about">about</a>
-         <a href="#reservation">reservation</a>
-         <a href="#gallery">gallery</a>
-         <a href="#contact">contact</a>
-         <a href="#reviews">reviews</a>
-      </div>
-        
-      <div class="box">
-         <a href="#">facebook <i class="fab fa-facebook-f"></i></a>
-         <a href="#">twitter <i class="fab fa-twitter"></i></a>
-         <a href="#">instagram <i class="fab fa-instagram"></i></a>
-         <a href="#">linkedin <i class="fab fa-linkedin"></i></a>
-      </div>
-
-   </div>
-
-   <div class="credit">&copy; copyright @ 2024 by BINAINU SHAIBU FULL-STACKS DEVELOPER| all rights reseved!</div>
-
-</section>
-
-<!-- footer section ends -->
+    <h1 class="heading"> contact<span>Me</span> </h1>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>okorohelen@yahoo.com</p>
+            <p><i class="fa-solid fa-paper-plane"></i>okorohelen@yahoo.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+237034241085</p>
+            <p><i class="fa-solid fa-square-phone"></i>2, Omotayo Shoyobo Street, Balogun, Iju Ishaga, Lagos</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/MyCv2024.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; BINAINU SHAIBU. Made with<i class="fa-solid fa-heart"></i> design  BY BINAINU SHAIBU Full stack developer</p>
+    </div>
 
 
 
+ <!--------jquery cdn link------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+
+<!-------custom js file link----->
+
+<script src="script.js"></script>
+
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzNpoF6pmlRtm_JcL-c6LgxHEoBe1c6mQtfHP6I9bRzOZILNh9fdKp0MF-JTGfY2HTcSA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  constmsg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+             msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 </body>
 </html>
+
+
+
+
+
